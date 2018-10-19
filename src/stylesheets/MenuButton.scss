@@ -1,0 +1,45 @@
+$bar-size: 50%;
+
+.menu-button {
+    background-color: red;
+    border-radius:100%;
+    position: relative;
+    // left: 100px;
+    width:50px;
+    height:50px;
+}
+
+.menu-trigger,
+.menu-trigger span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing: border-box;
+}
+
+.menu-trigger {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.menu-trigger span {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: $bar-size;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.menu-trigger span:nth-of-type(1) {
+    top: 12px;
+}
+
+.menu-trigger span:nth-of-type(2) {
+    top: 22px;
+}
+
+.menu-trigger span:nth-of-type(3) {
+    top: 32px;
+}
