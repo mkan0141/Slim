@@ -1,6 +1,8 @@
 # directory
 /node_modules/
 /dist/
+/src/config/*
+!.gitkeep
 
 # file
 package-lock.json
